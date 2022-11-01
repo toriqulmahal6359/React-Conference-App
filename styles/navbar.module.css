@@ -1,0 +1,157 @@
+.navbar{
+    display: flex;
+}
+.navbar_wrapper{
+    display: flex;
+    position: absolute;
+    width: 1320px;
+    height: 63px;
+    left: 136px;
+    top: 75px;
+    overflow-x: hidden;
+}
+.navbar_center{
+    display: flex;
+    flex: 5;
+    position: absolute;
+    width: 640.32px;
+    height: 22px;
+    left: 279.7px;;
+    top: -22px;
+}
+.navbar_left{
+    flex: 3.5;
+}
+.hamburger{
+    display: flex;
+    flex: 6; 
+    position: absolute;
+    width: 27.79px;
+    height: 24px;
+    left: 1123.2px;
+    top: -9px;
+}
+.navbar_vector{
+    flex: 6;
+    position: absolute;
+    left: 15.62%;
+    right: 15.63%;
+    top: 25%;
+    bottom: 25%;
+    font-size: x-large;
+    color: #0A142F;
+}
+.nav_list{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    color: #0A142F;
+}
+.nav_item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    float: left;
+    margin: 25px;
+    color: #0A142F;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+}
+.about_us{
+    position: absolute;
+    width: 90.32px;
+    height: 22px;
+    left: 642.74px;
+    top: 50px;
+
+    /* Button text */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+
+/* identical to box height */
+
+color: #0A142F;
+}
+
+.what_wedo{
+    
+    position: absolute;
+    width: 121.58px;
+    height: 22px;
+    left: 790.95px;
+    top: 50px;
+
+    /* Button text */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+
+    /* identical to box height */
+
+    color: #0A142F;
+}
+.our_work{
+    position: absolute;
+    width: 91.47px;
+    height: 22px;
+    left: 970.42px;
+    top: 50px;
+
+    /* Button text */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+
+    /* identical to box height */
+
+    color: #0A142F;
+    }
+.blog{
+    
+    position: absolute;
+    width: 45.16px;
+    height: 22px;
+    left: 1119.79px;
+    top: 50px;
+
+    /* Button text */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+
+    /* identical to box height */
+
+    color: #0A142F;
+}
+.say_hi{
+    position: absolute;
+    width: 60.21px;
+    height: 22px;
+    left: 1222.84px;
+    top: 50px;
+
+    /* Button text */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+
+    /* identical to box height */
+
+    color: #0A142F;
+}
+

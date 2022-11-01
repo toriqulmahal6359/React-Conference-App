@@ -1,0 +1,109 @@
+.hero{
+    position: relative;
+    top: -65px;
+}
+.heroContainer{
+    background-image: url("../public/img/hero/Ornament\ 69.svg");
+}
+
+.heroHeadline{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 140px;
+    line-height: 169px;
+    text-align: center;
+    color: #0A142F;
+    position: relative;
+}
+.heroFrame{
+    position: relative;
+    bottom: -186px;
+    left: -146px;
+}
+.heroFirst{
+    float: right;
+    position: absolute;
+    right: 430px;
+}
+.heroSecond{
+    position: absolute;
+    float: right;
+    right: 415px;
+}
+.heroDescription{
+    display: flex;
+    align-items: center;
+}
+.heroVector{
+    position: relative;
+    right: -621px;
+    top: -225px;
+    z-index: -1;
+}
+.heroParagraph{
+    display: flex;
+    align-items: center;
+}
+.heroSideImage{
+    position: absolute;
+    top: 638px;
+    left: 40px;
+}
+.heroDetails{
+    position: absolute;
+    width: 460px;
+    top: 625px;
+    left: 460px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    /* or 200% */
+    color: #000000;
+    opacity: 0.8;
+}
+.heroButton{
+    position: absolute;
+    width: 293px;
+    height: 60px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px;
+    /* gap: 8px; */
+
+    background: #FFC93E;
+    border-radius: 30px;
+    border: none;
+    left: 463px;
+    bottom: 465px;
+}
+.clickToMe{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    text-align: center;
+    color: #0A142F;
+    /* Inside auto layout */
+
+    /* flex: none;
+    order: 0;
+    flex-grow: 0; */
+}
+.heroImage{
+    position: absolute;
+    left: 965px;
+    top: 477px;
+}
+.heroStar{
+    position: absolute;
+    top: 800px;
+    right: 315px;
+}

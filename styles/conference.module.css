@@ -1,0 +1,143 @@
+.conference_heading{
+    position: relative;
+    bottom: -150px;
+    left: 130px;
+    padding: 35px;
+    margin-top: 35px;
+}
+.conference_name{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: #0A142F;
+}
+.conference_desc{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: left;
+    color: rgba(10, 20, 47, 0.8);
+    opacity: 0.8;
+    margin-top: -20px;
+    margin-bottom: 40px;
+}
+.conference{
+    display: flex;
+    align-items: center;
+}
+.conferenceWrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 150px;
+}
+.leftpane{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    margin: -66px;
+}
+.eventList{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.eventpart{
+    display: flex;
+    margin: 30px;
+    box-sizing: border-box;
+    width: 365px;
+    height: 72px;
+    left: 299px;
+    top: 385px;
+    padding: 25px;
+    background: #FFFFFF;
+    border: 1px solid rgba(217, 217, 217, 0.5);
+    border-radius: 8px;
+    background-color: #FFC93E;
+    box-shadow: 0px 10px 20px rgba(162, 162, 162, 0.25);
+}
+.eventItem{
+    display: flex;
+    align-items: center;
+    background-color: #FFC93E;
+}
+.imageBorder{
+    padding: 14px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    margin-left: -17px;
+}
+.eventImg{
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+}
+.eventName{
+    width: 97px;
+    height: 24px;
+    margin-left: 30px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+
+    /* color: #0A142F; */
+    color: #FFFFFF;
+}
+.rightpane{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+.peopleCard{
+    display: flex;
+    align-items: center;
+    margin: -25px;
+}
+.peopleList{
+    position: relative;
+    width: 412px;
+    height: 188px;
+    left: 15px;
+    top: 50px;
+}
+.peopleId{
+    display: flex;
+    justify-content: space-between;
+}
+.peopleName{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+
+    color: #0A142F;
+}
+.peopleCompany{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #0A142F;
+    opacity: 0.5;
+}
+.peopleDesc{
+    margin-top: 5px;
+    font-size: 16px;
+    line-height: 19px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+
+    color: #0A142F;
+    opacity: 0.8;
+}
